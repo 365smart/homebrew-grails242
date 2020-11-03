@@ -1,5 +1,5 @@
 # homebrew-grails242
-Homebrew tap (public repo) to allow to install grails 2.4.2
+Homebrew tap (public github repo) to allow to install grails 2.4.2
 
 ```
 $ brew install 365smart/homebrew-grails242/grails242
