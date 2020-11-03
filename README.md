@@ -1,9 +1,11 @@
 # homebrew-grails242
+Homebrew tap to allow to install grails 2.4.2.
 
 ```
 $ brew install 365smart/homebrew-grails242/grails242
 ```
 
+Based on: https://docs.brew.sh/How-to-Create-and-Maintain-a-Tap
 
 ### Reason for the repo:
 The old way of installing using https url is not working anymore
