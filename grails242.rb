@@ -6,7 +6,9 @@ class Grails242 < Formula
 
   bottle :unneeded
 
-  depends_on :java
+  # Don't depend on :java to avoid the following warning
+  #     Warning: Calling depends_on :java is deprecated! Use "depends_on "openjdk@11", "depends_on "openjdk@8" or "depends_on "openjdk" instead.
+  #depends_on :java
 
   def install
     rm_f Dir["bin/*.bat", "bin/cygrails", "*.bat"]
